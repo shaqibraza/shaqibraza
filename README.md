@@ -20,7 +20,7 @@
 
 | Frontend | Backend | Database | Tools |
 |---|---|---|---|
-| **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React.js**, **Next.js**, **Tailwind-CSS** | **Node.js**, **Express.js**, **TypeScript**, **Socket IO** | **MongoDB**, **Postgres**, **MySQL** | **Docker**, **Drizzle**, **Git**, **GitHub**, **Postman**, **VS Code** |
+| **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React.js**, **Next.js**, **Tailwind-CSS** | **Node.js**, **Express.js**, **TypeScript**, **Socket IO** | **MongoDB**, **Postgres**, **MySQL** | **Docker**, **Prisma**, **Drizzle**, **Git**, **GitHub**, **Postman**, **VS Code** |
 
 ---
 
