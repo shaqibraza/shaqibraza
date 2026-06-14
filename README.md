@@ -61,6 +61,31 @@
 
 ### 🧩 Featured Projects
 
+#### 🔹 [Trend – Microservice-Based E-Commerce Platform]()
+> **[Live Demo]()**
+> A full-stack, **event-driven e-commerce platform** built as a **Turborepo monorepo**, combining four independent backend microservices with two **Next.js 15** frontends — a customer storefront and an admin dashboard — connected via **Apache Kafka**.
+>
+> 🛒 Key Features:
+> - Polyglot microservices: **product-service (Express 5 + Prisma + PostgreSQL)**, **order-service (Fastify 5 + Mongoose + MongoDB)**, **payment-service (Hono + Razorpay)**, **auth-service (Express 5 + Clerk)**
+> - Event-driven checkout pipeline: `payment.successful` → `order.created` → automated email confirmation via a dedicated Kafka-consumer email service
+> - Razorpay integration with HMAC signature verification + webhook-based payment confirmation
+> - Role-based access control (Admin/User) via **Clerk JWT** session claims, enforced across Next.js middleware and backend services
+> - Shared `@repo/types` package with **Zod** schemas for type-safe validation across the entire monorepo
+> - Admin dashboard with real-time analytics (order trends, success rates) using **TanStack Query/Table + Recharts**
+> - 3-broker **Apache Kafka (KRaft)** cluster with Docker Compose + Kafka UI for monitoring
+>
+> ⚙️ Checkout Flow:
+> ```
+> Client → payment-service (/create-order, /verify-payment)
+>        → Kafka: payment.successful
+>        → order-service (persist order, emit order.created)
+>        → email-service (send confirmation)
+> ```
+>
+> 🧠 This project demonstrates **distributed systems design, async messaging architecture, polyglot persistence, and cross-service authentication**, reflecting production-grade microservice patterns.
+>
+> **Tech Stack:** TypeScript, Next.js 15, React 19, Express 5, Fastify 5, Hono 4, Apache Kafka (KafkaJS), PostgreSQL, MongoDB, Prisma, Mongoose, Clerk, Razorpay, Zod, Tailwind CSS 4, Turborepo + pnpm
+
 #### 🔹 [Mystery Message – An Anonymous Feedback Platform](https://github.com/IamMSR-01/Mystery-Message)
 > **[Live Demo](https://my-mystery-message.vercel.app/)**
 >
