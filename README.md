@@ -73,7 +73,7 @@
 >
 > **[Live Demo]()**
 >
-> **[Live Demo](https://github.com/shaqibraza/Ecommerce-with-Microservices)**
+> **[GitHub](https://github.com/shaqibraza/Ecommerce-with-Microservices)**
 >
 > A full-stack, **event-driven e-commerce platform** built as a **Turborepo monorepo**, combining four independent backend microservices with two **Next.js 15** frontends — a customer storefront and an admin dashboard — connected via **Apache Kafka**.
 >
@@ -103,7 +103,7 @@
 >
 > **[Live Demo]()**
 >
-> **[Live Demo](https://github.com/IamMSR-01/OIDC-Authentication)**
+> **[GitHub](https://github.com/IamMSR-01/OIDC-Authentication)**
 >
 > A fully functional **OpenID Connect (OIDC) Authentication Server** built from scratch using **Node.js, Express, PostgreSQL, and Drizzle ORM**.
 >
