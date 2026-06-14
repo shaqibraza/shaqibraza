@@ -20,7 +20,7 @@
 
 | Frontend | Backend | Database | Tools |
 |---|---|---|---|
-| **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React.js**, **Next.js**, **Tailwind-CSS** | **Node.js**, **Express.js**, **TypeScript**, **Socket IO** | **MongoDB**, **Postgres**, **MySQL** | **Docker**, **Prisma**, **Drizzle**, **Git**, **GitHub**, **Postman**, **VS Code** |
+| **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React.js**, **Next.js**, **Tailwind-CSS** | **Node.js**, **Express.js**, **TypeScript**, **Socket IO**, **Fastify**, **Hono**, **Kafka** | **MongoDB**, **Postgres**, **MySQL** | **Docker**, **Prisma**, **Drizzle**, **Git**, **GitHub**, **Postman**, **VS Code** |
 
 ---
 
@@ -53,6 +53,14 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" height="40" alt="Socket.io"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
 
+  <!-- Additional Stack -->
+  <img src="https://cdn.simpleicons.org/prisma" height="40" alt="Prisma"/>
+  <img src="https://cdn.simpleicons.org/apachekafka" height="40" alt="Kafka"/>
+  <img src="https://cdn.simpleicons.org/fastify" height="40" alt="Fastify"/>
+  <img src="https://cdn.simpleicons.org/hono" height="40" alt="Hono"/>
+  <img src="https://cdn.simpleicons.org/clerk" height="40" alt="Clerk"/>
+  <img src="https://cdn.simpleicons.org/razorpay" height="40" alt="Razorpay"/>
+
   <!-- Drizzle -->
   <img src="https://img.shields.io/badge/Drizzle-ORM-black?style=flat&logo=postgresql" height="30" alt="Drizzle ORM"/>
 </p>
@@ -61,8 +69,12 @@
 
 ### 🧩 Featured Projects
 
-#### 🔹 [Trend – Microservice-Based E-Commerce Platform]()
+#### 🔹 [Trend – Microservice-Based E-Commerce Platform](https://github.com/shaqibraza/Ecommerce-with-Microservices)
+>
 > **[Live Demo]()**
+>
+> **[Live Demo](https://github.com/shaqibraza/Ecommerce-with-Microservices)**
+>
 > A full-stack, **event-driven e-commerce platform** built as a **Turborepo monorepo**, combining four independent backend microservices with two **Next.js 15** frontends — a customer storefront and an admin dashboard — connected via **Apache Kafka**.
 >
 > 🛒 Key Features:
@@ -86,20 +98,13 @@
 >
 > **Tech Stack:** TypeScript, Next.js 15, React 19, Express 5, Fastify 5, Hono 4, Apache Kafka (KafkaJS), PostgreSQL, MongoDB, Prisma, Mongoose, Clerk, Razorpay, Zod, Tailwind CSS 4, Turborepo + pnpm
 
-#### 🔹 [Mystery Message – An Anonymous Feedback Platform](https://github.com/IamMSR-01/Mystery-Message)
-> **[Live Demo](https://my-mystery-message.vercel.app/)**
->
-> A full-stack anonymous feedback application built with **Next.js 14 (App Router)**, **TypeScript**, and **NextAuth.js** for secure, end-to-end authentication.
-> 
-> 🤫 Key Features:  
-> - Secure user authentication (Sign-up/Sign-in) with email verification.  
-> - Unique, shareable public profile links for receiving messages.  
-> - A personal dashboard to view, manage, and delete incoming messages.  
-> - Toggle message acceptance status with real-time database updates.  
-> - AI-powered message suggestions using the Vercel AI SDK and Google Gemini.  
-> This project demonstrates a complete, modern full-stack workflow, from user authentication to database management and AI integration, all deployed on Vercel.
 
 #### 🔹 [OIDC Authentication Server – OpenID Connect Provider](https://github.com/IamMSR-01/OIDC-Authentication)
+>
+> **[Live Demo]()**
+>
+> **[Live Demo](https://github.com/IamMSR-01/OIDC-Authentication)**
+>
 > A fully functional **OpenID Connect (OIDC) Authentication Server** built from scratch using **Node.js, Express, PostgreSQL, and Drizzle ORM**.
 >
 > 🔐 Key Features:
@@ -121,7 +126,30 @@
 >
 > 🧠 This project demonstrates deep understanding of **authentication systems, OAuth2/OIDC protocols, and scalable backend architecture**, making it a production-grade backend system.
 
+
+#### 🔹 [Mystery Message – An Anonymous Feedback Platform](https://github.com/IamMSR-01/Mystery-Message)
+>
+> **[Live Demo](https://my-mystery-message.vercel.app/)**
+> 
+> **[GitHub](https://github.com/IamMSR-01/Mystery-Message)**
+>
+> A full-stack anonymous feedback application built with **Next.js 14 (App Router)**, **TypeScript**, and **NextAuth.js** for secure, end-to-end authentication.
+> 
+> 🤫 Key Features:  
+> - Secure user authentication (Sign-up/Sign-in) with email verification.  
+> - Unique, shareable public profile links for receiving messages.  
+> - A personal dashboard to view, manage, and delete incoming messages.  
+> - Toggle message acceptance status with real-time database updates.  
+> - AI-powered message suggestions using the Vercel AI SDK and Google Gemini.  
+> This project demonstrates a complete, modern full-stack workflow, from user authentication to database management and AI integration, all deployed on Vercel.
+
+
 #### 🔹 [Chattrix – A Real-Time Chat Application](https://github.com/IamMSR-01/Chat-App)  
+>
+> **[Live Demo](https://chat-app-virid-tau.vercel.app/)**
+> 
+> **[GitHub](https://github.com/IamMSR-01/Chat-App)**
+
 > **Chattrix** is a feature-rich real-time chat application built with **Socket.IO** and the **MERN stack**.
 > 
 > 💬 Key Features:  
@@ -132,7 +160,10 @@
 > - Clean, mobile-responsive UI with Tailwind  
 > A complete full-stack project demonstrating modern real-time communication at scale.
 
-#### 🔹 [StudentX – A Student Learning Platform](https://github.com/IamMSR-01/studentx)  
+#### 🔹 [StudentX – A Student Learning Platform](https://github.com/IamMSR-01/studentx)
+
+> **[GitHub](https://github.com/IamMSR-01/studentx)**
+> 
 > **StudentX** is an AI-powered **MERN stack** platform crafted to help students discover careers, enhance skills, and unlock job opportunities.
 >  
 > 🚀 Features include:  
@@ -144,6 +175,9 @@
 > Serving 1000+ students already, this platform is a step towards empowering the next-gen learners.
 
 #### 🔹 [Hotel Booking System](https://github.com/IamMSR-01/Hotel-Management)
+>
+> **[GitHub](https://github.com/IamMSR-01/Hotel-Management)**
+> 
 > A MERN stack-based backend for a hotel room booking system.
 > Backend with full **CRUD**, **JWT Authentication**, **Role-based Access**, and **Booking logic**.
 > 
@@ -155,6 +189,9 @@
 > - Designed to power dynamic hotel booking web apps with real-time backend functionality.
 
 #### 🔹 [VideoTube - Scalable Video Sharing Platform](https://github.com/IamMSR-01/Youtube-clone-backend)
+>
+> **[GitHub](https://github.com/IamMSR-01/Youtube-clone-backend)**
+>
 > YouTube-like backend with **authentication**, **video processing**, **playlists**, **likes**, **comments**, and **analytics**.
 > A backend system inspired by YouTube, focusing on scalable video sharing.
 > 
@@ -166,6 +203,11 @@
 > - Built for performance and designed to handle video-centric platforms efficiently.
 
 #### 🔹 [BlogNest - Your Space to Write, Share, and Inspire](https://blog-app-orpin-rho.vercel.app/)
+>
+> **[Live Link](https://blog-app-orpin-rho.vercel.app/)**
+>
+> **[GitHub](https://github.com/shaqibraza/Blog-App)**
+>
 > Real-time blogging platform with **200+ users**, optimized **DB queries**, and **role-based access control**
 > A fully functional real-time blogging platform for creators and readers.
 > 
@@ -177,6 +219,11 @@
 > - A creative space to publish and explore impactful writing.
 
 #### 🔹 [Crypto Tracker – Real-time Cryptocurrency Monitoring](https://crypto-tracker-raza.vercel.app/)
+>
+> **[Live Link](https://crypto-tracker-raza.vercel.app/)**
+>
+> **[GitHub](https://github.com/shaqibraza/Crypto-tracker)**
+>
 > Live crypto market data using **Coin Gecko API** with **interactive charts**
 > A responsive web app to monitor global crypto prices and market stats.
 > 
@@ -188,6 +235,11 @@
 > - Perfect for tracking crypto trends in a visually engaging way.
 
 #### 🔹 [World Atlas – Country Info Web App](https://world-atlas-ivory.vercel.app/)
+>
+> **[Live Link](https://world-atlas-ivory.vercel.app/)**
+>
+> **[GitHub](https://github.com/shaqibraza/World-Atlas)**
+>
 > Responsive app with **search, sort, filter**, and **region-based country info**
 > A beautiful and informative tourism-focused country directory.
 > 
@@ -199,6 +251,9 @@
 > - Ideal for travelers, geography students, and curious minds.
 
 #### 🔹 [Real-Time Currency Converter](https://currency-converter-gamma-two-92.vercel.app/)
+>
+> **[Live Link](https://currency-converter-gamma-two-92.vercel.app/)**
+>
 > Live currency conversion with real-time exchange rates
 > A lightweight yet powerful currency converter web app.
 > 
